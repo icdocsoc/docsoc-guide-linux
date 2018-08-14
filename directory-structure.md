@@ -19,3 +19,18 @@ A directory path can be specified in two different ways:
 An **absolute path** is given with reference to the root directory, and always begins with a `/`. For example, `/usr/local/bin/` is an absolute path.
 
 In contrast, a **relative path** is given with reference to the current working directory, and doesn’t begin with a `/`. For example, say we have a folder `A` in `/usr/bin/`, which contains the file `B.txt`.
+
+![example directory](assets/example-directory.png "Example directory")
+###### Our example directory structure
+
+Let’s run through some scenarios:
+
+The absolute path to `B.txt` is `/usr/bin/A/B.txt`.
+
+If our current working directory is `/`, then the relative path to `B.txt` would be `usr/bin/A/B.txt`.
+
+If our current working directory is `/usr/`, then the relative path to `B.txt` would be `bin/A/B.txt`.
+
+If our current working directory is `/usr/bin/`, then the relative path to `B.txt` would be `A/B.txt`.
+
+If our current working directory is `/usr/bin/A/`, then the relative path to `B.txt` would simply be `B.txt`.
