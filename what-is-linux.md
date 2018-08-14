@@ -2,6 +2,9 @@
 
 The word ‘Linux’ is actually used to describe two separate things: a family of open-source operating systems, and what is called the **kernel** that underlies those operating systems. The kernel is the interface between software and a computer’s hardware. In this guide we’ll just refer to the operating system family, which is also called ‘GNU/Linux’ to distinguish it from the Linux kernel.
 
+![kernel](assets/kernel.png "kernel")
+###### Applications and other software access the computer hardware through the kernel
+
 The Linux family is a subset of a larger family called Unix, which encompasses other operating systems such as macOS, BSD and Solaris. Windows is not part of the Unix family.
 
 ## What is a distro?
