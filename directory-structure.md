@@ -34,3 +34,7 @@ If our current working directory is `/usr/`, then the relative path to `B.txt` w
 If our current working directory is `/usr/bin/`, then the relative path to `B.txt` would be `A/B.txt`.
 
 If our current working directory is `/usr/bin/A/`, then the relative path to `B.txt` would simply be `B.txt`.
+
+## Hidden files
+
+Files or directories that begin with `.` (a single dot) are hidden, and by default aren’t viewable to an ordinary user. Most hidden files and folders across the  Linux filesystem are configuration files, e.g. the bash config file `.bashrc` and the `.git` folders inside git repositories. See the `ls` command for how to view hidden files.
