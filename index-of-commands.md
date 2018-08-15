@@ -6,27 +6,54 @@ Brief (to be removed)
 A list of all the commands we have described
 ```
 
-ls
+### ls
 
-cd
+Lists all files in a directory
 
-sudo
+### cd
 
-touch
+Changes working directory
 
-cat
+### sudo
 
-mkdir
+Execute commands as root user
 
-rm (-rf)
+### touch
 
-cp (-R)
+Create empty file
 
-ssh (and how to ssh into labs)
+### cat
 
-grep (-n) (alternatives: ag)
+Print file contents
 
-chmod and permission numbers
+### mkdir
 
-man [...]
+Create a directory
 
+### rm
+
+Remove a file or directory
+
+### cp
+
+Copy a file or directory
+
+### mv
+
+Move a file or directory
+
+### ssh
+
+Remotely connect to another Linux machine's terminal
+
+### grep
+
+Search through files and directories
+
+### chmod
+
+Change permissions on files and directories
+
+### man
+
+Get the manual entry for a Terminal command

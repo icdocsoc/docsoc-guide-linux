@@ -9,6 +9,7 @@ cat
 mkdir
 rm (-rf)
 cp (-R)
+mv
 ssh (and how to ssh into labs)
 grep (-n) (alternatives: ag)
 chmod and permission numbers
