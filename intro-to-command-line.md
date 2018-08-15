@@ -4,27 +4,16 @@
 Brief (to be removed)
 
 Open terminal
-
 Ctrl+ and ctrl- to zoom in and out
-
 Type ls
-
 Teach ls (-a, -l)
-
 Teach cd
-
 TIP: THE UP AND DOWN BUTTONS CAN BE USED TO SELECT PREVIOUS COMMANDS
-
 File directory structure (/ and ~ meaning)
-
 . means current directory
-
 .. means parent directory
-
 Relative vs absolute paths
-
 Hidden files (start with .)
-
 ```
 
 
