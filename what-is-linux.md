@@ -1,5 +1,15 @@
 # What is Linux?
 
+```
+
+Brief (to be removed)
+
+(kernel vs operating system)
+linux and unix
+Linux distros (Ubuntu, Debian, Fedora etc.)
+
+```
+
 The word ‘Linux’ is actually used to describe two separate things: a family of open-source operating systems, and what is called the **kernel** that underlies those operating systems. The kernel is the interface between software and a computer’s hardware. In this guide we’ll just refer to the operating system family, which is also called ‘GNU/Linux’ to distinguish it from the Linux kernel.
 
 ![kernel](assets/kernel.png "kernel")

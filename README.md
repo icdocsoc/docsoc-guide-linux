@@ -4,4 +4,4 @@ A guide aimed at first year Computing/JMC students concerning the basics of Linu
 
 
 1. [What is Linux?](what-is-linux.md)
-2. [Directory structure](directory-structure.md)
+2. [An introduction to the command line](intro-to-command-line.md)

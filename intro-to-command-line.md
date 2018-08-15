@@ -1,4 +1,34 @@
-# Directory structure
+# An introduction to the command line
+
+```
+Brief (to be removed)
+
+Open terminal
+
+Ctrl+ and ctrl- to zoom in and out
+
+Type ls
+
+Teach ls (-a, -l)
+
+Teach cd
+
+TIP: THE UP AND DOWN BUTTONS CAN BE USED TO SELECT PREVIOUS COMMANDS
+
+File directory structure (/ and ~ meaning)
+
+. means current directory
+
+.. means parent directory
+
+Relative vs absolute paths
+
+Hidden files (start with .)
+
+```
+
+
+## Directory structure
 
 Every Linux operating system, no matter which distro you use, will have the same underlying directory structure for storing files.
 
