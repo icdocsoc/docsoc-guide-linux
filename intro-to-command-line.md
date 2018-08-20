@@ -15,12 +15,14 @@ File directory structure (/ and ~ meaning)
 Relative vs absolute paths
 Hidden files (start with .)
 ```
-## The Terminal, ls and cd
+## Using Terminal, `ls` and `cd`
 
 In your applications folder there will be a program called 'Terminal'. The Terminal provides an interface between you and your computer; it comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). For now, we'll focus on some basic commands. Start by opening the Terminal app; you will be greeted with a command line interface like so:
 
 ![terminal](assets/commands/startup.png "Start-up")
 ###### Don’t worry about the left hand side too much yet - this reads as your username ‘@’ the hostname of your computer
+
+You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
 
 ## Directory structure
 
