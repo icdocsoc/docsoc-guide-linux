@@ -46,7 +46,9 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 
 ![ls /](assets/commands/ls-:.png "ls /")
 
-We can add several optional flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. (For more info on hidden files see the Hidden Files section later on). `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+We can add several optional flags to `ls` to change its output.
+
+Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. (For more info on hidden files see the Hidden Files section later on). `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
 
 ![ls -a](assets/commands/ls-a.png "ls -a")
 
@@ -111,7 +113,7 @@ The last 3 characters describe permissions for **everyone else**.
 
 ## Relative and absolute directory paths
 
-A directory path can be specified in two different ways:
+In the terminal, a directory path can be specified in two different ways:
 
 An **absolute path** is given with reference to the root directory, and always begins with a `/`. For example, `/usr/local/bin/` is an absolute path.
 
