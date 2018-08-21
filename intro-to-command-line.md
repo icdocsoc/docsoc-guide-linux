@@ -43,13 +43,24 @@ The first command is the easiest - it simply lists all the files and directories
 
 If we type `ls <directory>`, we can list all the files in that directory. As an example, type `ls /`. You should be able to see all the folders in the root directory!
 
-![ls -a](assets/commands/ls-:.png "ls")
+![ls /](assets/commands/ls-:.png "ls /")
 
 ```
 Note: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
 ```
 
-We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+
+![ls -a](assets/commands/ls-a.png "ls -a")
+
+Adding `-l` prints the list of files/directories in so-called long form. This prints information such as
+* user permissions
+* owner name
+* owner’s group name
+* file size (in bytes)
+* date last modified
+
+![ls -l](assets/commands/ls-l.png "ls -l")
 
 ## The `cd` command
 
