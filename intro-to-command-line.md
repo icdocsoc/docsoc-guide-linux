@@ -46,7 +46,7 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 
 ![ls /](assets/commands/ls-:.png "ls /")
 
-We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. (For more info on hidden files see the Hidden Files section later on). `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+We can add several optional flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. (For more info on hidden files see the Hidden Files section later on). `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
 
 ![ls -a](assets/commands/ls-a.png "ls -a")
 
