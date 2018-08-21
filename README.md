@@ -3,11 +3,11 @@
 A guide aimed at first year Computing/JMC students concerning the basics of Linux and the command line interface.
 
 
-1. [What is Linux?](what-is-linux.md)
-2. [An introduction to the command line](intro-to-command-line.md)
-3. [More commands](more-commands.md)
-4. [Advanced command line concepts](advanced-command-line-concepts.md)
-5. [Shells](shells.md)
-6. [Package managers](package-managers.md)
-7. [Text editors](text-editors.md)
-8. [Index of commands](index-of-commands.md)
+1. [What is Linux?](1-what-is-linux.md)
+2. [An introduction to the command line](2-intro-to-command-line.md)
+3. [More commands](3-more-commands.md)
+4. [Advanced command line concepts](4-advanced-command-line-concepts.md)
+5. [Shells](5-shells.md)
+6. [Package managers](6-package-managers.md)
+7. [Text editors](7-text-editors.md)
+8. [Index of commands](8-index-of-commands.md)
