@@ -46,7 +46,7 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 
 ![ls /](assets/commands/ls-:.png "ls /")
 
-We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
 
 ![ls -a](assets/commands/ls-a.png "ls -a")
 
@@ -74,6 +74,18 @@ For example, `cd /` changes our current working directory to the root directory.
 ![cd](assets/commands/cd.png "cd")
 
 That's it! You've mastered two of the most important Linux terminal commands.
+
+## Terminal shortcuts
+
+Terminal has some shortcuts that can be used instead of typing out long directory names:
+
+* `~/` refers to your own home directory
+
+* `.` refers to the current working directory
+
+* `..` refers to its parent directory (i.e. one level higher up in the hierarchy)
+
+These can be used in the `ls` and `cd` commands, and in general in any terminal command where a directory name is required.
 
 ## File permissions
 
