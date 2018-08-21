@@ -46,7 +46,7 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 
 ![ls /](assets/commands/ls-:.png "ls /")
 
-We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
+We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, **including any hidden files**, in the working directory. (For more info on hidden files see the Hidden Files section later on). `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
 
 ![ls -a](assets/commands/ls-a.png "ls -a")
 
@@ -87,7 +87,27 @@ Terminal has some shortcuts that can be used instead of typing out long director
 
 These can be used in the `ls` and `cd` commands, and in general in any terminal command where a directory name is required.
 
+## Hidden files
+
+
+
 ## File permissions
+
+`ls -l` prints file permissions in a single 10-character string, e.g. `drwxr-xr-x`. Here we'll decipher what this means.
+
+The first character will be `d` if the object in question is a directory, otherwise it will be `-` for a file.
+
+The next 9 characters are all either `r`, `w` or `x`:
+* `r` means the file/directory is readable
+* `w` means the file/directory is writable
+* `x` means the file/directory is executable
+* if any of these are not present, a `-` will be present instead.
+
+The first 3 characters describe permissions for the **owner** of the file.
+
+The next 3 characters describe permissions for the **owner's user group**.
+
+The last 3 characters describe permissions for **everyone else**.
 
 ## Directory structure
 
