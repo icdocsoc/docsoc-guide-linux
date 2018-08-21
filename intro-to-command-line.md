@@ -15,14 +15,28 @@ File directory structure (/ and ~ meaning)
 Relative vs absolute paths
 Hidden files (start with .)
 ```
-## Using Terminal, `ls` and `cd`
+## Using the terminal
 
-In your applications folder there will be a program called 'Terminal'. The Terminal provides an interface between you and your computer; it comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). For now, we'll focus on some basic commands. Start by opening the Terminal app; you will be greeted with a command line interface like so:
+In your applications folder there should be a program called 'Terminal'. The terminal provides a **command line interface** between you and your computer, which is so-called since the only thing you're allowed to do is enter commands on-screen. The Linux terminal comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). Almost all programming on Linux involves good knowledge of how to use the command line interface.
+
+For now, we'll focus on some basic commands that allow you to interact with your computer. Start by opening the Terminal app; you will be greeted with a command line interface like so:
 
 ![terminal](assets/commands/startup.png "Start-up")
 ###### Don’t worry about the left hand side too much yet - this reads as your username ‘@’ the hostname of your computer
 
-You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
+```
+Tip: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
+```
+
+Before we begin, we'll have to explain some terms:
+* Every command you execute in the terminal takes place from the perspective of a certain directory, called your **working directory**.
+* Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
+
+## The `ls` command
+
+The first command is the easiest - it simply lists all the files and directories in your working directory! Type in `ls` (that’s lowercase ‘l’ followed by ‘s’) to see all the files in your home directory (since remember, each Terminal window opens into your home directory).
+
+## The `cd` command
 
 ## Directory structure
 
