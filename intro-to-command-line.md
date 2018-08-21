@@ -10,6 +10,7 @@ Teach ls (-a, -l)
 Teach cd
 TIP: THE UP AND DOWN BUTTONS CAN BE USED TO SELECT PREVIOUS COMMANDS
 File directory structure (/ and ~ meaning)
+Understanding file permissions
 . means current directory
 .. means parent directory
 Relative vs absolute paths
@@ -54,11 +55,13 @@ We can add several flags to `ls` to change its output. Adding `-a` to the comman
 ![ls -a](assets/commands/ls-a.png "ls -a")
 
 Adding `-l` prints the list of files/directories in so-called long form. This prints information such as
-* user permissions
+* file permissions
 * owner name
 * owner’s group name
 * file size (in bytes)
 * date last modified
+
+We explain how to read file permissions (e.g. `drwxr-xr-x`) later on in this section.
 
 ![ls -l](assets/commands/ls-l.png "ls -l")
 
@@ -67,6 +70,16 @@ TIP: the up and down arrow keys can be used to scroll through previously used co
 ```
 
 ## The `cd` command
+
+The `cd` command is used to change your current working directory. Type `cd <directory>` to switch to that directory.
+
+For example, `cd /` changes our current working directory to the root directory. Now typing `ls` has the same effect as typing `ls /` from any other directory.
+
+![cd](assets/commands/cd.png "cd")
+
+That's it! You've mastered two of the most important Linux terminal commands.
+
+## File permissions
 
 ## Directory structure
 
