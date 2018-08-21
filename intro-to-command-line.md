@@ -28,7 +28,7 @@ For now, we'll focus on some basic commands that allow you to interact with your
 Tip: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
 ```
 
-Before we begin, we'll have to explain some terms:
+Before we begin, we'll have to explain some terms. Don't worry if these don't make sense at first, you'll pick up concepts quickly when experimenting with the `ls` and `cd` commands:
 * Every command you execute in the terminal takes place from the perspective of a certain directory, called your **working directory**.
 
 * Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
@@ -46,7 +46,7 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 ![ls -a](assets/commands/ls-:.png "ls")
 
 ```
-Note: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing
+Note: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
 ```
 
 We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
