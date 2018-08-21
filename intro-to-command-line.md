@@ -17,7 +17,7 @@ Hidden files (start with .)
 ```
 ## Using the terminal
 
-In your applications folder there should be a program called 'Terminal'. The terminal provides a **command line interface** between you and your computer, which is named as such since the only thing you're allowed to do is enter commands on-screen. The Linux terminal comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). Almost all programming on Linux involves good knowledge of how to use the command line interface.
+In your applications folder there's a program called 'Terminal'. The Linux terminal provides a **command line interface** between you and your computer, which is named as such since the only thing you're allowed to do is enter commands on-screen. The terminal comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). Almost all programming on Linux involves good knowledge of how to use the command line interface.
 
 For now, we'll focus on some basic commands that allow you to interact with your computer. Start by opening the Terminal app; you will be greeted with a command line interface like so:
 
@@ -30,6 +30,7 @@ Tip: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
 
 Before we begin, we'll have to explain some terms:
 * Every command you execute in the terminal takes place from the perspective of a certain directory, called your **working directory**.
+
 * Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
 
 ## The `ls` command
