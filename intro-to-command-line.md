@@ -17,7 +17,7 @@ Hidden files (start with .)
 ```
 ## Using the terminal
 
-In your applications folder there should be a program called 'Terminal'. The terminal provides a **command line interface** between you and your computer, which is so-called since the only thing you're allowed to do is enter commands on-screen. The Linux terminal comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). Almost all programming on Linux involves good knowledge of how to use the command line interface.
+In your applications folder there should be a program called 'Terminal'. The terminal provides a **command line interface** between you and your computer, which is named as such since the only thing you're allowed to do is enter commands on-screen. The Linux terminal comes with a huge list of preset commands, and you can install even more commands with **package managers** (see the Package Managers section). Almost all programming on Linux involves good knowledge of how to use the command line interface.
 
 For now, we'll focus on some basic commands that allow you to interact with your computer. Start by opening the Terminal app; you will be greeted with a command line interface like so:
 
