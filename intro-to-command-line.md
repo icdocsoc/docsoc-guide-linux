@@ -38,7 +38,7 @@ Before we begin, we'll have to explain some terms. Don't worry if these don't ma
 
 ## The `ls` command
 
-The first command is the easiest - it simply lists all the files and directories in your working directory! Type in `ls` (that’s lowercase ‘l’ followed by ‘s’) to see all the files in your home directory (since remember, each Terminal window opens into your home directory).
+The first command is the easiest - it simply lists all the files and directories in your working directory! Type in `ls` to see all the files in your home directory (since remember, each Terminal window opens into your home directory).
 
 ![ls](assets/commands/ls.png "ls")
 
