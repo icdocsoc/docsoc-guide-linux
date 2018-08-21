@@ -34,7 +34,7 @@ Before we begin, we'll have to explain some terms. Don't worry if these don't ma
 
 * Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
 
-* The **root directory** is the highest directory in the Linux hierarchy, and contains all other files and directories. It is denoted by `/`. Folders in the root directory cannot be modified without **root privileges** (see the `sudo` command for more details).
+* The **root directory** is the highest directory in the Linux hierarchy, and contains all other files and directories. It is denoted by `/`. Folders in the root directory cannot be modified without **root privileges** (see the `sudo` command for more details). NOTE: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
 
 ## The `ls` command
 
@@ -45,10 +45,6 @@ The first command is the easiest - it simply lists all the files and directories
 If we type `ls <directory>`, we can list all the files in that directory. As an example, type `ls /`. You should be able to see all the folders in the root directory!
 
 ![ls /](assets/commands/ls-:.png "ls /")
-
-```
-NOTE: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
-```
 
 We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
 
