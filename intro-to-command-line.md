@@ -25,7 +25,7 @@ For now, we'll focus on some basic commands that allow you to interact with your
 ###### Don’t worry about the left hand side too much yet - this reads as your username ‘@’ the hostname of your computer
 
 ```
-Tip: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
+TIP: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
 ```
 
 Before we begin, we'll have to explain some terms. Don't worry if these don't make sense at first, you'll pick up concepts quickly when experimenting with the `ls` and `cd` commands:
@@ -46,7 +46,7 @@ If we type `ls <directory>`, we can list all the files in that directory. As an 
 ![ls /](assets/commands/ls-:.png "ls /")
 
 ```
-Note: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
+NOTE: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
 ```
 
 We can add several flags to `ls` to change its output. Adding `-a` to the command will print all files and directories, __including any hidden files__, in the working directory. `.` and `..` are also printed, which refer to the working directory and its parent directory respectively.
@@ -61,6 +61,10 @@ Adding `-l` prints the list of files/directories in so-called long form. This pr
 * date last modified
 
 ![ls -l](assets/commands/ls-l.png "ls -l")
+
+```
+TIP: the up and down arrow keys can be used to scroll through previously used commands. This can save a lot of time when you eventually start using longer commands.
+```
 
 ## The `cd` command
 
