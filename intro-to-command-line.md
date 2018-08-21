@@ -57,7 +57,7 @@ Adding `-l` prints the list of files/directories in so-called long form. This pr
 * file size (in bytes)
 * date last modified
 
-We explain how to read file permissions (e.g. `drwxr-xr-x`) later on in this section.
+We explain how to read file permissions (e.g. `drwxr-xr-x`) in the File Permissions section later on.
 
 ![ls -l](assets/commands/ls-l.png "ls -l")
 
