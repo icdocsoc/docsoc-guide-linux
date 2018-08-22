@@ -22,7 +22,7 @@ You've already learnt about `ls` and `cd`. Now, we'll teach you some more useful
 
 ## `cat`
 
-## `mkir`
+## `mkdir`
 
 ## `rm`
 
