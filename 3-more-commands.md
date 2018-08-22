@@ -48,6 +48,10 @@ Whenever something is printed to the screen it belongs to what is called a 'stre
 
 ![mkdir](assets/commands/mkdir.png "mkdir")
 
+```
+Notice that files appear in white but directories appear in blue! The terminal colours may vary depending on what flavour of Linux you are running.
+```
+
 ## `rm`
 
 `rm <file>` removes that file **permanently** from your computer. Terminal commands don't use the Recycle Bin! Be very careful when using `rm` to remove files. In the example below  we use `touch` to create an empty file and `rm` to remove it.
