@@ -10,9 +10,9 @@ rm (-rf)
 cp (-R)
 mv
 sudo (+ which directories you need to sudo to write to)
-ssh (and how to ssh into labs)
 grep (-n) (alternatives: ag)
 chmod and permission numbers
+ssh (and how to ssh into labs)
 man [...]
 ```
 
