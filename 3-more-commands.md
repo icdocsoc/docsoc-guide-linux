@@ -32,7 +32,7 @@ Note that files don't have to end with an extension like `.txt`. They can be cal
 
 ## `cat`
 
-`cat <filename>` prints the contents of that file to your screen. The filename must be the name of a file that exists in your working directory.
+`cat <filename>` prints the contents of that file to your screen. The filename must be the name of a file that exists in your working directory. In the following example we've already created a file called `hello.txt` in our home folder, which contains the text `hello world`.
 
 ![cat](assets/commands/cat.png "cat")
 
