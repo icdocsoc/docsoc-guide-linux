@@ -32,9 +32,9 @@ TIP: You can use Ctrl+ and Ctrl- to make the text bigger and smaller.
 Before we begin, we'll have to explain some terms. Don't worry if these don't make sense at first, you'll pick up concepts quickly when experimenting with the `ls` and `cd` commands:
 * Every command you execute in the terminal takes place from the perspective of a certain directory, called your **working directory**.
 
-* Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
-
 * The **root directory** is the highest directory in the Linux hierarchy, and contains all other files and directories. It is denoted by `/`. Folders in the root directory cannot be modified without **root privileges** (see the `sudo` command for more details). NOTE: the root directory contains many important folders which should be kept as they are. Do not try and modify any of these folders unless you know what you're doing.
+
+* Your **home directory** is the default location for all your personal files, and is located at `/home/<your-username>/`. Your home directory is the default working directory when you open the terminal for the first time.
 
 ## The `ls` command
 
