@@ -67,9 +67,25 @@ We can stick these flags together into one string, so typing `rm -rf <directory>
 
 ## `cp`
 
+`cp <file> <directory>` copies the file into the specified directory. The original is left intact. Here it is in action:
+
+![cp](assets/commands/cp.png "cp")
+
+Similarly to `rm`, `cp` doesn't immediately work on copying directories. We must add the `-R` flag (R = recursive) to copy entire directories. Therefore `cp -R <directory1> <directory2>` copies the whole of `directory1` into `directory2`.
+
+![cp -R](assets/commands/cp-R.png "cp -R")
+
 ## `mv`
 
+`mv <file/directory> <directory>` moves the file/directory given by the first argument into the directory given by the second argument. Unlike `cp`, `mv` doesn't need a special flag for dealing with directories; it can handle them in the same way it handles files.
+
+![mv](assets/commands/mv.png "mv")
+
 ## `sudo`
+
+`sudo` is probably one of the most important commands in the Linux terminal, however we need to give you some background information before explaining what it does.
+
+All Linux computers have a secret user called `root`, which is allowed to read, write and execute every single file on the computer. However, there are many critical system files littered around which could cause serious damage if modified accidentally. Therefore, your personal user can only read and write to certain directories on the computer, and if you try to write to a sensitive directory (like the directories in `/`) you're presented with an error.
 
 ## `ssh`
 
