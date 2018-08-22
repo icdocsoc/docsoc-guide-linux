@@ -75,7 +75,7 @@ For example, `cd /` changes our current working directory to the root directory.
 
 ![cd](assets/commands/cd.png "cd")
 
-That's it! You've mastered two of the most important Linux terminal commands.
+That's it! You've learnt two of the most important Linux terminal commands.
 
 ## Terminal shortcuts
 
