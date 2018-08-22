@@ -20,9 +20,11 @@ You've already learnt about `ls` and `cd`. Now, we'll teach you some more useful
 
 Don't worry if the following list of commands seems very long at first. After lots of experience with using the Linux terminal you'll gradually start to memorise how each one works.
 
+Remember, whenever a command needs a file/directory path you can give it as either an absolute path or relative to your working directory.
+
 ## `touch`
 
-This is a really easy command. `touch <filename>` simply creates an empty file with that name in your working directory! Here it is demonstrated:
+This is a really easy command. `touch <file>` simply creates an empty file at the specificed location! Here it is demonstrated:
 
 ![touch](assets/commands/touch.png "touch")
 
@@ -32,7 +34,7 @@ Note that files don't have to end with an extension like `.txt`. They can be cal
 
 ## `cat`
 
-`cat <filename>` prints the contents of that file to your screen. The filename must be the name of a file that exists in your working directory. In the following example we've already created a file called `hello.txt` in our home folder, which contains the text `hello world`.
+`cat <file>` prints the contents of that file to your screen. In the following example we've already created a file called `hello.txt` in our home folder, which contains the text `hello world`.
 
 ![cat](assets/commands/cat.png "cat")
 
@@ -42,7 +44,24 @@ Whenever something is printed to the screen it belongs to what is called a 'stre
 
 ## `mkdir`
 
+`mkdir <directory>` creates an empty directory at the specified path.
+
+![mkdir](assets/commands/mkdir.png "mkdir")
+
 ## `rm`
+
+`rm <file>` removes that file **permanently** from your computer. Terminal commands don't use the Recycle Bin! Be very careful when using `rm` to remove files. In the example below  we use `touch` to create an empty file and `rm` to remove it.
+
+![rm](assets/commands/rm.png "rm")
+
+There's one catch: if you try to use `rm` on a directory, an error is printed! To remove a directory (**and everything inside it**) we must add the `-r` and `-f` flags.
+
+* `-r` tells the computer to remove the directory recursively (i.e. to remove all subdirectories, subsubdirectories, etc.)
+* `-f` tells the computer to erase all files/directories without asking for confirmation, no matter what the file permissions are
+
+We can stick these flags together into one string, so typing `rm -rf <directory>` will remove that directory from the computer. **Remember this is a permanent action.**
+
+![rm -rf](assets/commands/rm-rf.png "rm -rf")
 
 ## `cp`
 
