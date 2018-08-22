@@ -28,9 +28,7 @@ This is a really easy command. `touch <file>` simply creates an empty file at th
 
 ![touch](assets/commands/touch.png "touch")
 
-```
-Note that files don't have to end with an extension like `.txt`. They can be called whatever you want! Files only have extensions so that programs know what to do with that type of file.
-```
+###### Note that files don't have to end with an extension like `.txt`. They can be called whatever you want! Files only have extensions so that programs know what to do with that type of file.
 
 ## `cat`
 
@@ -48,9 +46,7 @@ Whenever something is printed to the screen it belongs to what is called a 'stre
 
 ![mkdir](assets/commands/mkdir.png "mkdir")
 
-```
-Notice that files appear in white but directories appear in blue! The terminal colours may vary depending on what flavour of Linux you are running.
-```
+###### Notice that files appear in white but directories appear in blue! The terminal colours may vary depending on what flavour of Linux you are running.
 
 ## `rm`
 
@@ -66,6 +62,8 @@ There's one catch: if you try to use `rm` on a directory, an error is printed! T
 We can stick these flags together into one string, so typing `rm -rf <directory>` will remove that directory from the computer. **Remember this is a permanent action.**
 
 ![rm -rf](assets/commands/rm-rf.png "rm -rf")
+
+###### `rm` on its own doesn't work, but `rm -rf` does.
 
 ## `cp`
 
