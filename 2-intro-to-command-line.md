@@ -134,4 +134,4 @@ If our current working directory is `/home/docsoc/` (remember this is the defaul
 
 If our current working directory is `/home/docsoc/Desktop/`, then the relative path to `file.txt` would simply be `file.txt`.
 
-Now you can experiment more with the `ls` and `cd` commands, using both absolute and relative paths.
+Try experimenting more with the `ls` and `cd` commands, this time using both absolute and relative paths to specify directories.
