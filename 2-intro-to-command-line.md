@@ -111,6 +111,8 @@ The next 3 characters describe permissions for the **owner's user group**.
 
 The last 3 characters describe permissions for **everyone else**.
 
+For more information on how to change a file's permissions, see the `chmod` command.
+
 ## Relative and absolute directory paths
 
 In the terminal, a directory path can be specified in two different ways:
