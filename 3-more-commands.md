@@ -18,6 +18,8 @@ man [...]
 
 You've already learnt about `ls` and `cd`. Now, we'll teach you some more useful (nay, essential) Linux commands.
 
+Don't worry if the following list of commands seems very long at first. After lots of experience with using the Linux terminal you'll gradually start to memorise how each one works.
+
 ## `touch`
 
 This is a really easy command. `touch <filename>` simply creates an empty file with that name in your working directory! Here it is demonstrated:
