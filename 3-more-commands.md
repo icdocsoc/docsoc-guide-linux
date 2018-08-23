@@ -85,7 +85,7 @@ Similarly to `rm`, `cp` doesn't immediately work on copying directories. We must
 
 All Linux computers have a secret user called `root`, which is allowed to read, write and execute every single file on the computer. However, there are many critical system files littered around which could cause serious damage if modified accidentally. Therefore, your personal user can only read and write to certain directories on the computer, and if you try to modify a sensitive directory (like the directories in `/`) you're presented with an error.
 
-The way around this is to prepend the word `sudo` to your command. This executes the command as the `root` user, allowing you to do pretty much whatever you want. However you **MUST** make sure what you're doing is safe, otherwise you risk permanently breaking your Linux system. Be warned!
+The way around this is to prepend the word `sudo` to your command. This executes the command as the `root` user, allowing you to do pretty much whatever you want, and Terminal will ask for your password before executing the command. However you **MUST** make sure what you're doing is safe, otherwise you risk permanently breaking your Linux system. Be warned!
 
 In the following example, we write an empty file to the root directory.
 
