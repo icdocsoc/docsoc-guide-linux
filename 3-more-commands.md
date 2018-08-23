@@ -91,6 +91,8 @@ In the following example, we write an empty file to the root directory.
 
 ![sudo](assets/commands/sudo.png "sudo")
 
+###### In the terminal, whenever you are asked to input your password, the characters you type aren't printed to the screen (although they are registered by the computer). That's why the bit after `[sudo] password for docsoc:` appears blank.
+
 ## `ssh`
 
 ## `grep`
