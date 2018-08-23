@@ -79,8 +79,6 @@ Similarly to `rm`, `cp` doesn't immediately work on copying directories. We must
 
 `mv <file/directory> <directory>` moves the file/directory given by the first argument into the directory given by the second argument. Unlike `cp`, `mv` doesn't need a special flag for dealing with directories; it can handle them in the same way it handles files.
 
-![mv](assets/commands/mv.png "mv")
-
 ## `sudo`
 
 `sudo` is probably one of the most important commands in the Linux terminal, however we need to give you some background information before explaining what it does.
