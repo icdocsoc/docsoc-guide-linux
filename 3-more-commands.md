@@ -59,7 +59,7 @@ There's one catch: if you try to use `rm` on a directory, an error is printed! T
 * `-r` tells the computer to remove the directory recursively (i.e. to remove all subdirectories, subsubdirectories, etc.)
 * `-f` tells the computer to erase all files/directories without asking for confirmation, no matter what the file permissions are
 
-We can stick these flags together into one string, so typing `rm -rf <directory>` will remove that directory from the computer. **Remember this is a permanent action.**
+We can stick these flags together into one string, so typing `rm -rf <directory>` will remove that directory from the computer. **Remember this is a permanent action.** In the example below we create a directory with `mkdir` and remove it with `rm -rf`.
 
 ![rm -rf](assets/commands/rm-rf.png "rm -rf")
 
