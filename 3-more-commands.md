@@ -93,9 +93,23 @@ In the following example, we write an empty file to the root directory.
 
 ###### In the terminal, whenever you are asked to input your password, the characters you type aren't printed to the screen (although they are registered by the computer). That's why the bit after `[sudo] password for docsoc:` appears blank, even though we did actually enter our password.
 
-## `ssh`
+## `ssh` (and how to connect to lab computers)
 
+`ssh` is a very useful Linux tool, since it allows you to access any other public Linux computer in the world. The only prerequisites are you need to know the IP address (or DNS hostname) of the computer, and also the username and password for an account on that computer. The format for the `ssh` command is `ssh <username>@<computer>`, where `<computer>` can be either the hostname or the IP address of that computer. After executing this command, you will be prompted for the user's password before being able to remotely access the computer's terminal.
 
+The Department of Computing provides a way for you to `ssh` into your personal account on the Huxley lab computers. There are 5 Linux servers which can be accessed via `ssh`, named as follows:
+
+* `shell1.doc.ic.ac.uk`
+* `shell2.doc.ic.ac.uk`
+* `shell3.doc.ic.ac.uk`
+* `shell4.doc.ic.ac.uk`
+* `shell5.doc.ic.ac.uk`
+
+Logging in to any one of them with your Imperial College credentials will allow you to access your personal account. (When the terminal asks `Are you sure you want to continue connecting?`, answer `yes`.)
+
+![ssh](assets/commands/ssh.png "ssh")
+
+After you enter your password a very long introductory message is printed, after which you can access your personal account from the terminal!
 
 ## `grep`
 
