@@ -113,7 +113,7 @@ After you enter your password a very long introductory message is printed, after
 
 ## `grep`
 
-`grep` allows you to search for phrases within files. `grep -n "string" <file>` will print out every instance where "string" occurs in `file` (the `-n` flag makes grep print the line number at each instance of "string").
+`grep` allows you to search for phrases within files. `grep -n "string" <file>` will print out every instance where "string" occurs in `file` (the `-n` flag makes `grep` print the line number at each instance of "string").
 
 For example, say we have a file called `catsdogs` which contains the string "cats" on some lines and "dogs" on others.
 
@@ -122,6 +122,8 @@ For example, say we have a file called `catsdogs` which contains the string "cat
 Running `grep -n "cats" catsdogs` will print every instance of "cats" in `catsdogs`, along with the line number. The same can be done for "dogs".
 
 ![grep](assets/commands/grep.png "grep")
+
+`grep` can also be used to search for a phrase within a directory, if you add the `-r` flag. The format is `grep -rn "string" <directory>`. 
 
 ## `chmod`
 
