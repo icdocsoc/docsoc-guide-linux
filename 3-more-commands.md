@@ -13,7 +13,7 @@ sudo (+ which directories you need to sudo to write to)
 grep (-n) (alternatives: ag)
 chmod and permission numbers
 ssh (and how to ssh into labs)
-man [...]
+man
 ```
 
 You've already learnt about `ls` and `cd`. Now, we'll teach you some more useful (nay, essential) Linux commands.
@@ -64,6 +64,8 @@ We can stick these flags together into one string, so typing `rm -rf <directory>
 ![rm -rf](assets/commands/rm-rf.png "rm -rf")
 
 ###### `rm` on its own doesn't work, but `rm -rf` does.
+
+An added bonus: you can attach any number of files/directories to the end of your `rm` command, and `rm` will remove all of them! e.g. `rm file1 file2 file3` will remove the files `file1`, `file2` and `file3` from your working directory.
 
 ## `cp`
 
