@@ -17,6 +17,16 @@ If you append `> <file>` to the end of your command, output will be written to `
 
 For example, `grep -n "cats" catsdogs > cats` will find all the lines in `catsdogs` that contain the string "cats", and write their line numbers to the file `cats`.
 
-## Streams and pipelining
+## Streams
 
-The Linux terminal is connected to various input and output channels in your computer that process data.
+Every terminal command takes in some text input, and spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels, called **streams** (also known as standard streams). There is a single input stream, called **stdin***, and there are two output streams, called **stdout** and **stderr**.
+
+Stream | Purpose
+  ---  |   ---
+ stdin | Handling input for a command
+stdout | Handing output for a command
+stderr | Handling any error messages printed by the command
+
+When executing a program as normal, all streams are connected to the Terminal. This means that any data to be input into a command must be typed into the Terminal.
+
+### Pipelining
