@@ -132,13 +132,21 @@ Running `grep -n "cats" catsdogs` will print every instance of "cats" in `catsdo
 The `mode` argument must be given as a 3-digit number, with each digit in the range 0-7. The first digit sets permissions for your own user, the second digit sets permissions for your user group and the third digit sets permissions for everyone.
 
 Each digit sets permissions as follows:
-* 7 - rwx, read, write and execute
-* 6 - rw-, read and write
-* 5 - r-x, read and execute
-* 4 - r--, only read
-* 3 - -wx, write and execute
-* 2 - -w-, only write
-* 1 - --x, only execute
-* 0 - ---, none
+
+7 | rwx | read, write and execute
+--- | --- | ---
+6 | rw- | read and write
+--- | --- | ---
+5 | r-x | read and execute
+--- | --- | ---
+4 | r-- | only read
+--- | --- | ---
+3 | -wx | write and execute
+--- | --- | ---
+2 | -w- | only write
+--- | --- | ---
+1 | --x | only execute
+--- | --- | ---
+0 | --- | none
 
 ## `man`
