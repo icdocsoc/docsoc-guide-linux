@@ -133,20 +133,15 @@ The `mode` argument must be given as a 3-digit number, with each digit in the ra
 
 Each digit sets permissions as follows:
 
+Digit | Shortcode | Permissions
+--- | --- | ---
 7 | rwx | read, write and execute
---- | --- | ---
 6 | rw- | read and write
---- | --- | ---
 5 | r-x | read and execute
---- | --- | ---
 4 | r-- | only read
---- | --- | ---
 3 | -wx | write and execute
---- | --- | ---
 2 | -w- | only write
---- | --- | ---
 1 | --x | only execute
---- | --- | ---
 0 | --- | none
 
 ## `man`
