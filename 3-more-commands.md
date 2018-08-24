@@ -146,7 +146,7 @@ Digit | Shortcode | Permissions
 
 ## `man`
 
-We've saved the most useful command until last. The `man` command gives you help on how to use any other Linux command! Type `man <commandname>` to see the built-in Linux manual entry for that command. All the information on commands we have described in this booklet can also be found in `man`.
+We've saved the most useful command until last. The `man` command gives you help on how to use any other Linux command! Type `man <commandname>` to see the built-in Linux manual entry for that command. All the information on commands we have described in this booklet can also be found using `man`. This can be especially useful for first year Lexis tests, since you aren't allowed Internet access during the test, so this is your point of reference for any Linux commands.
 
 For example, here's the beginning of the manual entry for `ssh`:
 
