@@ -145,3 +145,7 @@ Digit | Shortcode | Permissions
 0 | --- | none
 
 ## `man`
+
+We've saved the most useful command until last. The `man` command gives you help on how to use any other Linux command! Type `man <commandname>` to see the built-in Linux manual entry for that command. All the information on commands we have described in this booklet can also be found in `man`. For example, here's the beginning of the manual entry for `ssh`:
+
+![man](assets/commands/man.png "man")
