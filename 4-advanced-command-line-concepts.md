@@ -19,7 +19,7 @@ For example, `grep -n "cats" catsdogs > cats` will find all the lines in `catsdo
 
 ## Streams
 
-Every terminal command takes in some text input, and spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels, called **streams** (also known as standard streams). There is a single input stream, called **stdin***, and there are two output streams, called **stdout** and **stderr**.
+Every terminal command takes in some text input, and spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels in your computer, called **streams** (also known as standard streams). There is a single input stream, called **stdin**, and there are two output streams, called **stdout** and **stderr**.
 
 Stream | Purpose
   ---  |   ---
@@ -27,6 +27,28 @@ Stream | Purpose
 stdout | Handing output for a command
 stderr | Handling any error messages printed by the command
 
-When executing a program as normal, all streams are connected to the Terminal. This means that any data to be input into a command must be typed into the Terminal.
+When executing a program as normal, all streams are connected to the Terminal. This means that any data to be input into a command must be typed into the Terminal, and the output of any command (along with any error messages) is printed to the Terminal.
 
 ### Pipelining
+
+The pipelining technique allowed you to connect the **stdout** of one command to the **stdin** of another (called "piping"). In other words, you can tell the computer to run a second command using the output of the first one. This is done using the format `<first-command> | <second-command>` (`|` is the 'pipe' symbol).
+
+For example, let's say we want to find all the files/directories in our working directory that contain the string "cat". We know a command which can list all the filenames in our working directory:
+
+```
+ls
+```
+
+And we know a command that can search for the string "cat" in a bunch of text:
+
+```
+grep -n "cat" <file>
+```
+
+We can pipe the output of `ls` into the input of `grep` like so:
+
+```
+ls | grep -n "cats"
+```
+
+This will print the names of all files/directories containing the string "cat". Note that the `<file>` argument is not needed for `grep` in this case; the Terminal is smart enough to realise input will come from the piped command instead.
