@@ -31,7 +31,7 @@ When executing a program as normal, all streams are connected to the Terminal. T
 
 ### Pipelining
 
-The pipelining technique allowed you to connect the **stdout** of one command to the **stdin** of another (called "piping"). In other words, you can tell the computer to run a second command using the output of the first one. This is done using the format `<first-command> | <second-command>` (`|` is the 'pipe' symbol).
+Pipelining allowed you to connect the **stdout** of one command to the **stdin** of another (called "piping"). In other words, you can tell the computer to run a second command using the output of the first one. This is done using the format `<first-command> | <second-command>` ('|' is the 'pipe' symbol).
 
 For example, let's say we want to find all the files/directories in our working directory that contain the string "cat". We know a command which can list all the filenames in our working directory:
 
