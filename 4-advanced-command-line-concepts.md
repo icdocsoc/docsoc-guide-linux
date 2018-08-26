@@ -52,3 +52,5 @@ ls | grep -n "cat"
 ```
 
 This will print the names of all files/directories containing the string "cat". Note that the `<file>` argument is not needed for `grep` in this case; the Terminal is smart enough to realise input will come from the piped command instead.
+
+This doesn't just end with two commands, you can chain together as many commands as you want. Feel free to experiment!
