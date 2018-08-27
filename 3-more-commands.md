@@ -95,6 +95,8 @@ In the following example, we write an empty file to the root directory.
 
 ###### In the terminal, whenever you are asked to input your password, the characters you type aren't printed to the screen (although they are registered by the computer). That's why the bit after `[sudo] password for docsoc:` appears blank, even though we did actually enter our password.
 
+A small note: students actually aren't allowed to use `sudo` on Huxley lab computers! Presumably the Department has had enough of students messing around with critical system files...if there's something which you think you need `sudo` for, contact the Computing Support Group (CSG).
+
 ## `ssh` (and how to connect to lab computers)
 
 `ssh` is a very useful Linux tool, since it allows you to access any other public Linux computer in the world. The only prerequisites are you need to know the IP address (or DNS hostname) of the computer, and also the username and password for an account on that computer. The format for the `ssh` command is `ssh <username>@<computer>`, where `<computer>` can be either the hostname or the IP address of that computer. After executing this command, you will be prompted for the user's password before being able to remotely access the computer's terminal.
