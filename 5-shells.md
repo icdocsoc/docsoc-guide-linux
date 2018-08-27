@@ -1,4 +1,4 @@
-# Shells
+# Shells and scripts
 
 ```
 Brief (to be removed)
@@ -8,3 +8,4 @@ How to edit config file (.bashrc in this example)
 Adding aliases
 What $PATH is and how to add to $PATH permanently via .bashrc
 ```
+
