@@ -61,4 +61,4 @@ Workflow speed | Customisability | Version control integration | Learning Curve
 9/10 | 9/10 | No | Steep
 
 
-![vim](assets/text-editors/vim.jpeg "vim")
+![vim](assets/text-editors/vim.png "vim")
