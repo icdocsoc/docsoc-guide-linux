@@ -22,4 +22,4 @@ sudo yum install <package>
 ```
 to install the necessary package. If you need to install a program on Linux, 99% of the time it will be available on the default package manager.
 
-See `man apt-get` or `man yum` for more commands, including how to update and delete packages.
+For more commands, including how to update and delete packages, see `man apt-get` or `man yum`.
