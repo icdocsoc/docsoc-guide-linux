@@ -21,6 +21,8 @@ Workflow speed | Customisability | Version control integration | Learning Curve
 --- | --- | --- | ---
 4/10 | 3/10 | No | Easy
 
+![gedit](assets/text-editors/gedit.png "gedit")
+
 ## Atom
 
 This is a piece of software made by GitHub, advertised as being a "hackable text editor for the 21st century". There are many plugins which you can install to speed up your workflow, and editing multiple files is a little easier. Atom is incredibly customisable; you can control keyboard shortcuts, themes, plugins and even create a script to run when the app starts up. Version control with git is built in.
@@ -28,6 +30,9 @@ This is a piece of software made by GitHub, advertised as being a "hackable text
 Workflow speed | Customisability | Version control integration | Learning Curve
 --- | --- | --- | ---
 6/10 | 8/10 | Yes | Easy
+
+
+![atom](assets/text-editors/atom.png "atom")
 
 ## Jetbrains IDEs
 
@@ -37,9 +42,15 @@ Workflow speed | Customisability | Version control integration | Learning Curve
 --- | --- | --- | ---
 6/10 | 5/10 | Yes | Medium
 
+
+![intellij](assets/text-editors/intellij-idea.png "intellij")
+###### Displayed - Intellij Idea
+
 ## emacs
 
 TODO - find someone who likes emacs enough to explain it here
+
+![emacs](assets/text-editors/emacs.png "emacs")
 
 ## vim
 
@@ -48,3 +59,6 @@ vim is perhaps the hardest text editor to learn how to use, however the rewards 
 Workflow speed | Customisability | Version control integration | Learning Curve
 --- | --- | --- | ---
 9/10 | 9/10 | No | Steep
+
+
+![vim](assets/text-editors/vim.jpeg "vim")
