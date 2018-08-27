@@ -10,7 +10,9 @@ Linux distros (Ubuntu, Debian, Fedora etc.)
 
 ```
 
-The word ‘Linux’ is actually used to describe two separate things: a family of open-source operating systems, and what is called the **kernel** that underlies those operating systems. The kernel is the interface between software and a computer’s hardware. In this guide we’ll just refer to the operating system family, which is also called ‘GNU/Linux’ to distinguish it from the Linux kernel.
+The word ‘Linux’ is actually used to describe two separate things: a family of open-source operating systems, and what is called the **kernel** that underlies those operating systems. The kernel is the core part of an operating system, and provides the interface between software and a computer’s hardware. In this guide we’ll just refer to the family of operating systems.
+
+A Linux operating system includes the Linux kernel, plus a package management system and extra libraries provided by GNU. For that reason, the Linux operating system is sometimes referred to as ‘GNU/Linux’ to distinguish it from the Linux kernel.
 
 ![kernel](assets/kernel.png "kernel")
 ###### Applications and other software access the computer hardware through the kernel
