@@ -77,6 +77,31 @@ For example, `cd /` changes our current working directory to the root directory.
 
 That's it! You've learnt two of the most important Linux terminal commands.
 
+## Relative and absolute directory paths
+
+In the terminal, a directory path can be specified in two different ways:
+
+An **absolute path** is given with reference to the root directory, and always begins with a `/`. For example, `/usr/local/bin/` is an absolute path. In contrast, a **relative path** is given with reference to the current working directory, and doesn’t begin with a `/`.
+
+For example, say we have a file `file.txt` located in our `Desktop`, and our user is called `docsoc`.
+
+![example directory](assets/example-directory.png "Example directory")
+###### Our example directory structure
+
+Let’s run through some scenarios:
+
+The absolute path to `file.txt` is `/home/docsoc/Desktop/file.txt`.
+
+If our current working directory is `/`, then the relative path to `file.txt` would be `home/docsoc/Desktop/file.txt`.
+
+If our current working directory is `/home/`, then the relative path to `file.txt` would be `docsoc/Desktop/file.txt`.
+
+If our current working directory is `/home/docsoc/` (remember this is the default working directory when you open terminal for the first time) then the relative path to `file.txt` would be `Desktop/file.txt`.
+
+If our current working directory is `/home/docsoc/Desktop/`, then the relative path to `file.txt` would simply be `file.txt`.
+
+Try experimenting more with the `ls` and `cd` commands, this time using both absolute and relative paths to specify directories.
+
 ## Terminal shortcuts
 
 Terminal has some shortcuts that can be used instead of typing out long directory names:
@@ -112,28 +137,3 @@ The next 3 characters describe permissions for the **owner's user group**.
 The last 3 characters describe permissions for **everyone else**.
 
 For more information on how to change a file's permissions, see the `chmod` command.
-
-## Relative and absolute directory paths
-
-In the terminal, a directory path can be specified in two different ways:
-
-An **absolute path** is given with reference to the root directory, and always begins with a `/`. For example, `/usr/local/bin/` is an absolute path. In contrast, a **relative path** is given with reference to the current working directory, and doesn’t begin with a `/`.
-
-For example, say we have a file `file.txt` located in our `Desktop`, and our user is called `docsoc`.
-
-![example directory](assets/example-directory.png "Example directory")
-###### Our example directory structure
-
-Let’s run through some scenarios:
-
-The absolute path to `file.txt` is `/home/docsoc/Desktop/file.txt`.
-
-If our current working directory is `/`, then the relative path to `file.txt` would be `home/docsoc/Desktop/file.txt`.
-
-If our current working directory is `/home/`, then the relative path to `file.txt` would be `docsoc/Desktop/file.txt`.
-
-If our current working directory is `/home/docsoc/` (remember this is the default working directory when you open terminal for the first time) then the relative path to `file.txt` would be `Desktop/file.txt`.
-
-If our current working directory is `/home/docsoc/Desktop/`, then the relative path to `file.txt` would simply be `file.txt`.
-
-Try experimenting more with the `ls` and `cd` commands, this time using both absolute and relative paths to specify directories.
