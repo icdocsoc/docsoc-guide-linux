@@ -25,10 +25,9 @@ Workflow speed | Customisability | Version control integration | Learning Curve
 
 This is a piece of software made by GitHub, advertised as being a "hackable text editor for the 21st century". There are many plugins which you can install to speed up your workflow, and editing multiple files is a little easier. Atom is incredibly customisable; you can control keyboard shortcuts, themes, plugins and even create a script to run when the app starts up. Version control with git is built in.
 
-Workflow speed: 6/10
-Customisability: 9/10
-Version control integration: Yes
-Learning curve: Easy
+Workflow speed | Customisability | Version control integration | Learning Curve
+--- | --- | --- | ---
+6/10 | 8/10 | Yes | Easy
 
 ## Jetbrains IDEs
 
