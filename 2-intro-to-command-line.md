@@ -120,7 +120,7 @@ Files or directories that begin with `.` (a single dot) are hidden, and by defau
 
 ## File permissions
 
-`ls -l` prints file permissions in a single 10-character string, e.g. `drwxr-xr-x`. Here we'll decipher what this means.
+`ls -l` prints file permissions in a single 10-character string, e.g. `drwxr-xrw-`. Here we'll decipher what this means.
 
 The first character will be `d` if the object in question is a directory, otherwise it will be `-` for a file.
 
@@ -136,4 +136,14 @@ The next 3 characters describe permissions for the **owner's user group**.
 
 The last 3 characters describe permissions for **everyone else**.
 
-For more information on how to change a file's permissions, see the `chmod` command.
+For example, let's decipher `drwxr-xr-x`.
+
+The first character is `d`, meaning this is a directory.
+
+The next group of 3 characters is `rwx`. This means the owner has read, write and execute permissions.
+
+The next group of 3 characters is `r-x`. This means everyone in the owner's user group can read and execute, but not write to the file.
+
+The next group of 3 characters is `rw-`. This means everyone else can read and write, but not execute the file.
+
+For information on how to change a file's permissions, see the `chmod` command.
