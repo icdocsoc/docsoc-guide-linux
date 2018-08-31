@@ -136,7 +136,9 @@ The next 3 characters describe permissions for the **owner's user group**.
 
 The last 3 characters describe permissions for **everyone else**.
 
-For example, let's decipher `drwxr-xr-x`.
+
+
+For example, let's decipher `drwxr-xrw-`.
 
 The first character is `d`, meaning this is a directory.
 
