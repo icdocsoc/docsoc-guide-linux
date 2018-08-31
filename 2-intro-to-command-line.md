@@ -116,7 +116,7 @@ These can be used in the `ls` and `cd` commands, and in general in any terminal 
 
 ## Hidden files
 
-Files or directories that begin with `.` (a single dot) are hidden, and by default aren’t viewable to an ordinary user. Most hidden files and fold- ers across the Linux filesystem are configuration files, e.g. the bash config file `.bashrc` and the `.git` folders inside git repositories. Hidden files can be viewed by using `ls -a`.
+Files or directories that begin with `.` (a single dot) are hidden, and by default aren’t viewable to an ordinary user. Most hidden files and folders across the Linux filesystem are configuration files, e.g. the bash config file `.bashrc` and the `.git` folders inside git repositories. Hidden files can be viewed by using `ls -a`.
 
 ## File permissions
 
