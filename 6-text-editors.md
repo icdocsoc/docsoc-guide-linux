@@ -36,7 +36,7 @@ Yes | Yes | Easy
 
 ## Jetbrains IDEs
 
-Jetbrains are a company that make a series of IDEs (integrated development environments) for various languages. Their flagship product, Intellij Idea, is the recommended IDE to use when programming in Java in 1st/2nd term of 1st year, however they also have products such as PyCharm for Python programming and CLion for C programming. You can customise the look of the IDE and can also configure many different plugins (e.g. vim keyboard shortcuts), and all products come with version control integration. Students can get all of Jetbrains' products for free.
+Jetbrains are a company that make a series of IDEs (integrated development environments) for various languages. Their flagship product, Intellij IDEA, is the recommended IDE to use when programming in Java in 1st/2nd term of 1st year, however they also have products such as PyCharm for Python programming and CLion for C programming. You can customise the look of the IDE and can also configure many different plugins (e.g. vim keyboard shortcuts), and all products come with version control integration. Students can get all of Jetbrains' products for free.
 
 Customisable? | Version control integration | Learning Curve
 --- | --- | ---
@@ -44,7 +44,7 @@ Yes | Yes | Medium
 
 
 ![intellij](assets/text-editors/intellij-idea.png "intellij")
-###### Displayed - Intellij Idea
+###### Displayed - Intellij IDEA
 
 ## emacs
 
