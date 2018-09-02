@@ -34,7 +34,7 @@
 
 ### `ssh` (and how to `ssh` into labs)
 
-### `grep`
+### `grep`
 
 ### `chmod`
 
@@ -44,9 +44,7 @@
 
 ### Outputting to a file
 
-### Streams
-
-#### Pipelining
+### Streams and pipelining
 
 ## Package managers
 
