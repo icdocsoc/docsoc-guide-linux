@@ -17,7 +17,7 @@ If you append `> <file>` (that's '>', followed by the name of a file) to the end
 
 For example, `grep -n "cats" catsdogs > cats` will find all the lines in `catsdogs` that contain the string "cats", and write their line numbers to the file `cats`.
 
-## Streams
+## Streams and pipelining
 
 In general, every terminal command takes in some text input and eventually spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels in your computer, called **streams** (also known as standard streams). There is a single input stream, called **stdin**, and there are two output streams, called **stdout** and **stderr**.
 
@@ -29,9 +29,7 @@ stderr | Handling any error messages printed by the command
 
 When executing a program as normal, all streams are connected to the Terminal. This means that any data to be input into a command must be typed into the Terminal, and the output of any command (along with any error messages) is printed to the Terminal.
 
-### Pipelining
-
-Pipelining allowed you to connect the **stdout** of one command to the **stdin** of another (called "piping"). In other words, you can tell the computer to run a second command using the output of the first one. This is done using the format `<first-command> | <second-command>` ('|' is the 'pipe' symbol).
+**Pipelining** allows you to connect the **stdout** of one command to the **stdin** of another (called "piping"). In other words, you can tell the computer to run a second command using the output of the first one. This is done using the format `<first-command> | <second-command>` ('|' is the 'pipe' symbol).
 
 For example, let's say we want to find all the files/directories in our working directory that contain the string "cat". We know a command which can list all the filenames in our working directory:
 
