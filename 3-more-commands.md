@@ -36,10 +36,6 @@ This is a really easy command. `touch <file>` simply creates an empty file at th
 
 ![cat](assets/commands/cat.png "cat")
 
-```
-Whenever something is printed to the screen it belongs to what is called a 'stream'. There are two output streams, called stdout and stderr, and one input stream called stdin. This is quite an advanced topic but for more information, see the Streams section.
-```
-
 ## `mkdir`
 
 `mkdir <directory>` creates an empty directory at the specified path.
