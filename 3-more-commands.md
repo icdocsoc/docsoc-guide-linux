@@ -73,6 +73,8 @@ Similarly to `rm`, `cp` doesn't immediately work on copying directories. We must
 
 ![cp -R](assets/commands/cp-R.png "cp -R")
 
+###### `cp` on its own doesn't work, but `cp -R` does
+
 ## `mv`
 
 `mv <file/directory> <directory>` moves the file/directory given by the first argument into the directory given by the second argument. Unlike `cp`, `mv` doesn't need a special flag for dealing with directories; it can handle them in the same way it handles files.
