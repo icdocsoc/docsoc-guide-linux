@@ -19,7 +19,7 @@ For example, `grep -n "cats" catsdogs > cats` will find all the lines in `catsdo
 
 ## Streams
 
-Every terminal command takes in some text input, and spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels in your computer, called **streams** (also known as standard streams). There is a single input stream, called **stdin**, and there are two output streams, called **stdout** and **stderr**.
+In general, every terminal command takes in some text input and eventually spits out some text output. These pieces of data are sent between the command and the Terminal using virtual input and output channels in your computer, called **streams** (also known as standard streams). There is a single input stream, called **stdin**, and there are two output streams, called **stdout** and **stderr**.
 
 Stream | Purpose
   ---  |   ---
