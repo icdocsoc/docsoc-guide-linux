@@ -18,7 +18,7 @@ man
 
 You've already learnt about `ls` and `cd`. Now, we'll teach you some more useful (nay, essential) Linux commands.
 
-Don't worry if the following list of commands seems very long at first. After lots of experience with using the Linux terminal you'll gradually start to memorise how each one works.
+Don't worry if the following list of commands seems very long at first. After lots of experience with using the Linux terminal you'll gradually start to memorise each command.
 
 Remember, whenever a command needs a file/directory path you can give it as either an absolute path or relative to your working directory.
 
