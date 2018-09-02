@@ -25,7 +25,7 @@ No | No | Easy
 
 ## Atom
 
-This is a piece of software made by GitHub, advertised as being a "hackable text editor for the 21st century". There are many plugins which you can install to speed up your workflow, and editing multiple files is a little easier. Atom is incredibly customisable; you can control keyboard shortcuts, themes, plugins and even create a script to run when the app starts up. Version control with git is built in.
+This is a piece of software made by GitHub, advertised as being a "hackable text editor for the 21st century". There are many plugins which you can install to speed up your workflow, and editing multiple files is a lot easier. Atom is incredibly customisable; you can control keyboard shortcuts, themes, plugins and even create a script to run when the app starts up. Version control with git is built in.
 
 Customisable? | Version control integration | Learning Curve
 --- | --- | ---
