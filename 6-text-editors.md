@@ -54,7 +54,7 @@ TODO - find someone who likes emacs enough to explain it here
 
 ## vim
 
-vim is perhaps the hardest text editor to learn how to use, however the rewards that can be reaped in terms of speed are astounding. There are a huge number of built-in keyboard shortcuts, all of which can be remapped if you don't like them, and an almost uncountable number of plugins for vim are available online. Since vim is run using a command line interface it is very fast, however the downside is there are no fancy integrations with other services such as version control - everything else must be done manually.
+vim has a steeper learning curve than other editors such as Atom, however the rewards that can be reaped in terms of speed are astounding. There are a huge number of built-in keyboard shortcuts, all of which can be remapped if you don't like them, and an almost uncountable number of plugins for vim are available online. Since vim is run using a command line interface it is very fast, however the downside is there are no fancy integrations with other services such as version control - everything else must be done manually.
 
 Customisable? | Version control integration | Learning Curve
 --- | --- | ---
