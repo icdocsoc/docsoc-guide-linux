@@ -111,6 +111,8 @@ Logging in to any one of them with your Imperial College credentials will allow 
 
 ![ssh](assets/commands/ssh.png "ssh")
 
+###### Here we're logging in as user 'fs2217'
+
 After you enter your password a very long introductory message is printed, after which you can access your personal account from the terminal!
 
 ## `grep`
