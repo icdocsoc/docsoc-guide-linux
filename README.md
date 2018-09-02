@@ -7,6 +7,5 @@ A guide aimed at first year Computing/JMC students concerning the basics of Linu
 2. [An introduction to the command line](2-intro-to-command-line.md)
 3. [More commands](3-more-commands.md)
 4. [Advanced command line concepts](4-advanced-command-line-concepts.md)
-6. [Package managers](5-package-managers.md)
-7. [Text editors](6-text-editors.md)
-8. [Index of commands](7-index-of-commands.md)
+5. [Package managers](5-package-managers.md)
+6. [Text editors](6-text-editors.md)
