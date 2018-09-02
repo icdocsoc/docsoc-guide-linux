@@ -54,7 +54,9 @@ TODO - find someone who likes emacs enough to explain it here
 
 ## vim
 
-vim has a steeper learning curve than other editors such as Atom, however the rewards that can be reaped in terms of speed are astounding. There are a huge number of built-in keyboard shortcuts, all of which can be remapped if you don't like them, and an almost uncountable number of plugins for vim are available online. vim keyboard bindings can also be used in the normal terminal window (see tutorials online for how to set this up). Since vim is run using a command line interface it is very fast, however the downside is there are no fancy integrations with other services such as version control - everything else must be done manually.
+vim has a steeper learning curve than other editors such as Atom, however many rewards can be reaped in terms of workflow speed. There are a large number of built-in keyboard shortcuts, all of which can be remapped if you don't like them, and an almost uncountable number of plugins for vim are available online. vim keyboard bindings can also be used in the normal terminal window (see tutorials online for how to set this up). Since vim is run using a command line interface it is very fast, however the downside is there are no fancy integrations with other services such as version control - everything else must be done manually.
+
+For a good tutorial to vim, check out [Vim Adventures](https://vim-adventures.com)
 
 Customisable? | Version control integration | Learning Curve
 --- | --- | ---
