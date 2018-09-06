@@ -1,4 +1,4 @@
-# An introduction to the command line
+# The command line
 
 ```
 Brief (to be removed)
